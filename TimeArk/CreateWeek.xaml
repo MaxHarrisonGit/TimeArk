@@ -1,0 +1,72 @@
+﻿<Window x:Class="TimeArk.CreateWeek"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TimeArk"
+        mc:Ignorable="d"
+        Title="CreateWeek" Height="434.099" Width="702.323" x:Name="UI" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" FontFamily="Argos Book">
+    <Grid>
+        <DatePicker Name="DatePick" HorizontalAlignment="Left" Height="28" Margin="12,10,0,0" VerticalAlignment="Top" Width="113" CalendarClosed="DatePick_CalendarClosed"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="38" Margin="10,67,0,0" Stroke="Black" VerticalAlignment="Top" Width="651"/>
+
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="38" Margin="10,109,0,0" Stroke="Black" VerticalAlignment="Top" Width="651"/>
+        <TextBox x:Name="MondayStart" HorizontalAlignment="Left" Height="21" Margin="118,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115"/>
+        <TextBox x:Name="MondayEnd" HorizontalAlignment="Left" Height="21" Margin="238,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116"/>
+        <Label x:Name="Label1" Content="Monday" HorizontalAlignment="Left" Height="29" Margin="19,114,0,0" VerticalAlignment="Top" Width="94"/>
+
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="38" Margin="10,150,0,0" Stroke="Black" VerticalAlignment="Top" Width="651"/>
+        <TextBox x:Name="TuesdayStart" HorizontalAlignment="Left" Height="21" Margin="118,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115"/>
+        <TextBox x:Name="TuesdayEnd" HorizontalAlignment="Left" Height="21" Margin="238,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116"/>
+        <Label x:Name="label_Copy1" Content="Tuesday" HorizontalAlignment="Left" Height="29" Margin="19,155,0,0" VerticalAlignment="Top" Width="94"/>
+
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="38" Margin="10,191,0,0" Stroke="Black" VerticalAlignment="Top" Width="651"/>
+        <TextBox x:Name="WednesdayStart" HorizontalAlignment="Left" Height="21" Margin="118,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115"/>
+        <TextBox x:Name="WednesdayEnd" HorizontalAlignment="Left" Height="21" Margin="238,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116"/>
+        <Label x:Name="label_Copy2" Content="Wednesday" HorizontalAlignment="Left" Height="29" Margin="19,196,0,0" VerticalAlignment="Top" Width="94"/>
+
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="38" Margin="10,232,0,0" Stroke="Black" VerticalAlignment="Top" Width="651"/>
+        <TextBox x:Name="ThursdayStart" HorizontalAlignment="Left" Height="21" Margin="118,241,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115"/>
+        <TextBox x:Name="ThursdayEnd" HorizontalAlignment="Left" Height="21" Margin="238,241,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116"/>
+        <Label x:Name="label_Copy3" Content="Thursday" HorizontalAlignment="Left" Height="29" Margin="19,237,0,0" VerticalAlignment="Top" Width="94"/>
+
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="38" Margin="10,273,0,0" Stroke="Black" VerticalAlignment="Top" Width="651"/>
+        <TextBox x:Name="FridayStart" HorizontalAlignment="Left" Height="21" Margin="118,282,0,-1" TextWrapping="Wrap" VerticalAlignment="Top" Width="115"/>
+        <TextBox x:Name="FridayEnd" HorizontalAlignment="Left" Height="21" Margin="238,282,0,-1" TextWrapping="Wrap" VerticalAlignment="Top" Width="116"/>
+        <Label x:Name="label_Copy4" Content="Friday" HorizontalAlignment="Left" Height="29" Margin="19,278,0,-5" VerticalAlignment="Top" Width="94"/>
+
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="38" Margin="10,314,0,0" Stroke="Black" VerticalAlignment="Top" Width="651"/>
+        <TextBox x:Name="SundayStart" HorizontalAlignment="Left" Height="21" Margin="118,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115"/>
+        <TextBox x:Name="SundayEnd" HorizontalAlignment="Left" Height="21" Margin="238,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116"/>
+        <Label x:Name="label_Copy5" Content="Sunday" HorizontalAlignment="Left" Height="29" Margin="19,72,0,0" VerticalAlignment="Top" Width="94"/>
+        
+        <ComboBox x:Name="MondayLocal" HorizontalAlignment="Left" Height="21" Margin="389,118,0,0" VerticalAlignment="Top" Width="116"/>
+        <ComboBox x:Name="TuesdayLocal" HorizontalAlignment="Left" Height="21" Margin="389,159,0,0" VerticalAlignment="Top" Width="116"/>
+        <ComboBox x:Name="WednesdayLocal" HorizontalAlignment="Left" Height="21" Margin="389,200,0,0"  VerticalAlignment="Top" Width="116"/>
+        <ComboBox x:Name="ThursdayLocal" HorizontalAlignment="Left" Height="21" Margin="389,241,0,0"  VerticalAlignment="Top" Width="116"/>
+        <ComboBox x:Name="FridayLocal" HorizontalAlignment="Left" Height="21" Margin="389,282,0,0"  VerticalAlignment="Top" Width="116"/>
+        <ComboBox x:Name="SundayLocal" HorizontalAlignment="Left" Height="21" Margin="389,76,0,0" VerticalAlignment="Top" Width="116"/>
+        <ComboBox x:Name="SaturdayLocal" HorizontalAlignment="Left" Height="21" Margin="389,323,0,0" VerticalAlignment="Top" Width="116"/>
+        
+        <TextBox x:Name="SuProject" HorizontalAlignment="Left" Height="21" Margin="532,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116"/>
+        <TextBox x:Name="SaturdayStart" HorizontalAlignment="Left" Height="21" Margin="118,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115"/>
+        <TextBox x:Name="SaturdayEnd" HorizontalAlignment="Left" Height="21" Margin="238,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116"/>
+        <Label x:Name="label" Content="Saturday" HorizontalAlignment="Left" Height="29" Margin="19,319,0,0" VerticalAlignment="Top" Width="94"/>
+        <TextBox x:Name="MoProject" HorizontalAlignment="Left" Height="21" Margin="532,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116"/>
+        <TextBox x:Name="TuProject" HorizontalAlignment="Left" Height="21" Margin="532,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116"/>
+        <TextBox x:Name="WedProject" HorizontalAlignment="Left" Height="21" Margin="532,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116"/>
+        <TextBox x:Name="ThProject" HorizontalAlignment="Left" Height="21" Margin="532,241,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116"/>
+        <TextBox x:Name="FrProject" HorizontalAlignment="Left" Height="21" Margin="532,282,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116"/>
+        <TextBox x:Name="SatProject" HorizontalAlignment="Left" Height="21" Margin="532,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116"/>
+        <Label x:Name="label1" Content="Start Time (00:00)" HorizontalAlignment="Left" Height="24" Margin="118,43,0,0" VerticalAlignment="Top" Width="115"/>
+        <Label x:Name="label1_Copy" Content="End Time (00:00)" HorizontalAlignment="Left" Height="24" Margin="238,43,0,0" VerticalAlignment="Top" Width="115"/>
+        <Label x:Name="label1_Copy1" Content="Location" HorizontalAlignment="Left" Height="24" Margin="389,43,0,0" VerticalAlignment="Top" Width="115"/>
+        <Label x:Name="label1_Copy2" Content="Project" HorizontalAlignment="Left" Height="28" Margin="533,43,0,0" VerticalAlignment="Top" Width="115"/>
+        <Button x:Name="AutoFill" Content="Auto Fill" HorizontalAlignment="Left" Height="22" Margin="606,16,0,0" VerticalAlignment="Top" Width="55" Click="AutoFill_Click"/>
+        <Button x:Name="Submit" Content="Submit" HorizontalAlignment="Left" Height="21" Margin="589,372,0,0" VerticalAlignment="Top" Width="72" Click="Submit_Click"/>
+        <Button x:Name="Save" Content="Save as Auto Fill" HorizontalAlignment="Left" Height="22" Margin="10,372,0,0" VerticalAlignment="Top" Width="95" Click="Save_Click"/>
+        <CheckBox x:Name="UpdateCheck" Content="Keep Current Plan" HorizontalAlignment="Left" Height="18" Margin="130,16,0,0" VerticalAlignment="Top" Width="118"/>
+
+
+    </Grid>
+</Window>

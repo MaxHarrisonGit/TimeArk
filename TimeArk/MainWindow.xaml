@@ -1,0 +1,99 @@
+﻿<Window x:Class="TimeArk.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TimeArk"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="642.509" Width="909.365" x:Name="UI" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" FontFamily="Argos Book">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="X:\Development\2) Development Testing Programme\9) Automation\UFT Automation\DAM System\Resources\Untitled.png"/>
+        </Grid.Background>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Height="491" Margin="10,112,0,0" VerticalAlignment="Top" Width="857" ItemsSource="{Binding ElementName=UI, Path=OCWeek}" IsSynchronizedWithCurrentItem="{x:Null}" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" HorizontalGridLinesBrush="LightGray" VerticalGridLinesBrush="Gray">
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="{x:Type DataGridColumnHeader}">
+                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                    <Setter Property="Background" Value="Black"/>
+                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="FontSize" Value="14"/>
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Path= User}"  Header="User">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center" />
+                            <Setter Property="VerticalAlignment" Value="Center" />
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path= Sunday}"  Header="Sunday" MinWidth="90" MaxWidth="90">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center" />
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path= Monday}"  Header="Monday" MinWidth="90" MaxWidth="90">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center" />
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path= Tuesday}"  Header="Tuesday" MinWidth="90" MaxWidth="90">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center" />
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path= Wednesday}"  Header="Wednesday" MinWidth="90" MaxWidth="90">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center" />
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path= Thursday}"  Header="Thursday" MinWidth="90" MaxWidth="90">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center" />
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path= Friday}"  Header="Friday" MinWidth="90" MaxWidth="90">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center" />
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path= Saturday}"  Header="Saturday" MinWidth="90" MaxWidth="90">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center" />
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path= Diffrence}"  Header="Additional Hours">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="HorizontalAlignment" Value="Center" />
+                            <Setter Property="VerticalAlignment" Value="Center" />
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="button" Content="Back" HorizontalAlignment="Left" Height="29" Margin="10,78,0,0" VerticalAlignment="Top" Width="51" Click="button_Click"/>
+        <Button x:Name="button_Copy" Content="Forward" HorizontalAlignment="Left" Height="29" Margin="66,78,0,0" VerticalAlignment="Top" Width="50" Click="button_Copy_Click"/>
+        <Button x:Name="button1" Content="Create Week" HorizontalAlignment="Left" Height="29" Margin="789,78,0,0" VerticalAlignment="Top" Width="78" Click="button1_Click"/>
+        <DatePicker Name ="Datepick"  HorizontalAlignment="Left" Height="29" Margin="121,78,0,0" VerticalAlignment="Top" Width="112" CalendarClosed="DatePicker_CalendarClosed"/>
+        <Button x:Name="Refresh" Content="Refresh" HorizontalAlignment="Left" Height="29" Margin="250,78,0,0" VerticalAlignment="Top" Width="72" Click="Refresh_Click"/>
+        <TextBlock x:Name="Totals" HorizontalAlignment="Left" Height="63" Margin="600,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="267"/>
+        <Button x:Name="Config" Content="Config" HorizontalAlignment="Left" Height="24" Margin="10,10,0,0" VerticalAlignment="Top" Width="51" Click="Config_Click" Visibility="Hidden"/>
+
+    </Grid>
+</Window>
