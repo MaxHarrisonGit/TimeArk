@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TimeArk"
         mc:Ignorable="d"
-        Title="MainWindow" Height="642.509" Width="909.365" x:Name="UI" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" FontFamily="Argos Book">
+        Title="MainWindow" Height="642.509" Width="909.365" x:Name="UI" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="X:\Development\2) Development Testing Programme\9) Automation\UFT Automation\DAM System\Resources\Untitled.png"/>

@@ -16,3 +16,21 @@ c:\users\harrima\documents\visual studio 2015\Projects\TimeArk\TimeArk\obj\Debug
 c:\users\harrima\documents\visual studio 2015\Projects\TimeArk\TimeArk\obj\Debug\CreateWeek.baml
 C:\Users\harrima\Documents\Visual Studio 2015\Projects\TimeArk\TimeArk\obj\Debug\ConfigWindow.g.cs
 C:\Users\harrima\Documents\Visual Studio 2015\Projects\TimeArk\TimeArk\obj\Debug\ConfigWindow.baml
+C:\Users\HARRIMA\Source\Repos\TimeArk\TimeArk\bin\Debug\TimeArk.exe.config
+C:\Users\HARRIMA\Source\Repos\TimeArk\TimeArk\bin\Debug\TimeArk.exe
+C:\Users\HARRIMA\Source\Repos\TimeArk\TimeArk\bin\Debug\TimeArk.pdb
+C:\Users\HARRIMA\Source\Repos\TimeArk\TimeArk\obj\Debug\TimeArk.csprojResolveAssemblyReference.cache
+C:\Users\HARRIMA\Source\Repos\TimeArk\TimeArk\obj\Debug\ConfigWindow.g.cs
+C:\Users\HARRIMA\Source\Repos\TimeArk\TimeArk\obj\Debug\CreateWeek.g.cs
+C:\Users\HARRIMA\Source\Repos\TimeArk\TimeArk\obj\Debug\MainWindow.g.cs
+C:\Users\HARRIMA\Source\Repos\TimeArk\TimeArk\obj\Debug\App.g.cs
+C:\Users\HARRIMA\Source\Repos\TimeArk\TimeArk\obj\Debug\TimeArk_MarkupCompile.cache
+C:\Users\HARRIMA\Source\Repos\TimeArk\TimeArk\obj\Debug\TimeArk_MarkupCompile.lref
+C:\Users\HARRIMA\Source\Repos\TimeArk\TimeArk\obj\Debug\ConfigWindow.baml
+C:\Users\HARRIMA\Source\Repos\TimeArk\TimeArk\obj\Debug\CreateWeek.baml
+C:\Users\HARRIMA\Source\Repos\TimeArk\TimeArk\obj\Debug\MainWindow.baml
+C:\Users\HARRIMA\Source\Repos\TimeArk\TimeArk\obj\Debug\TimeArk.g.resources
+C:\Users\HARRIMA\Source\Repos\TimeArk\TimeArk\obj\Debug\TimeArk.Properties.Resources.resources
+C:\Users\HARRIMA\Source\Repos\TimeArk\TimeArk\obj\Debug\TimeArk.csproj.GenerateResource.Cache
+C:\Users\HARRIMA\Source\Repos\TimeArk\TimeArk\obj\Debug\TimeArk.exe
+C:\Users\HARRIMA\Source\Repos\TimeArk\TimeArk\obj\Debug\TimeArk.pdb
